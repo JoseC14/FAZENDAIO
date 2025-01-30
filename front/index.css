@@ -59,6 +59,30 @@ iframe{
     color: white;
 }
 
+.form-container{
+    margin: 0 auto;
+    padding: 2vw;
+    width: 20vw;
+    text-align: center;
+    background-color: rgb(25, 71, 37);
+    color: white;
+}
+
+.form-container input{
+    margin-bottom: 2vw;
+    padding: 0.5vw;
+    border-radius: 5px;
+    
+}
+.form-container a{
+    color: white;
+}
+.submit-btn-form{
+
+    background-color: #865811;
+    border: none;
+}
+
 @media(max-width: 800px)
 {
     .item-list-nav{
@@ -85,6 +109,8 @@ iframe{
         display: block;
     }
     
+    .form-container{
+        width: 100%;
+    }
 }
-
 
